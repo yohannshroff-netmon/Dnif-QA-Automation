@@ -1,0 +1,10 @@
+node_modules/
+test-results/
+.vscode/
+*.log
+.DS_Store
+.env
+dnif-temp/
+temp/
+QA/
+playwright-report/
