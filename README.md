@@ -47,7 +47,7 @@ npx playwright test --project=webkit
 
 ## Test Files
 ### Core Tests (Production)
-- **Dnif-itsm.spec.js** — Comprehensive suite for DNIF ITSM, covering module functionality.
+- **Dnif-itsm.spec.js** — Test suite for DNIF ITSM, covering module functionality.
 
 ## Configuration
 
@@ -64,6 +64,8 @@ Tests use environment variables for authentication. Create a `.env` file in the 
 ```env
 DNIFTEST_EMAIL=your-email@dnif.it
 DNIFTEST_PASSWORD=your-password
+ATLASSIAN_TOKEN=you-atlassian-token
+URL=DNIF-URL
 ```
 
 **Note**: The `.env` file is excluded from version control via `.gitignore`.

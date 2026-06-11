@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
-const EMAIL = process.env.BLOOTEST_EMAIL;
-const PASSWORD = process.env.BLOOTEST_PASSWORD;
+const EMAIL = process.env.DNIFTEST_EMAIL;
+const PASSWORD = process.env.DNIFTEST_PASSWORD;
 const BASE_URL = process.env.URL;
 const ATLASSIAN_TOKEN = process.env.ATLASSIAN_TOKEN;
 async function login(page) {
